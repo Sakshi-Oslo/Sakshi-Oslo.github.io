@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Fjalla+One&family=Yatra+One&display=swap');
+h1 {
+    font-family: 'Yatra One', cursive;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 95px;
+}
+
+.parallax {
+    /* The image used */
+    /* background-image: url("background.webp"); */
+    background-color: cornsilk;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-1 {
+    background-position: center;
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+
+.position-2 {
+    height: 20px;
+    position: relative;
+    top: -500px;
+    left: 85%;
+}
+
+.position-3 {
+    position: relative;
+    top: -500px;
+    left: -100px;
+}
+
+.box {
+    position: relative;
+    /* top: -100px; */
+    left: 500px;
+    bottom: 480px;
+}
